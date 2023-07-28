@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main1 {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter the number to find its series sum");
+		int n=scan.nextInt();
+		Main main=new Main();
+		scan.close();
+		int res=main.calculateSumOfSeries(n);
+		System.out.println("Series sum is "+res);
+	}
+	
+}
